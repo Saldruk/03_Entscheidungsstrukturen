@@ -38,11 +38,16 @@ isJohnEqual = (ageJohn == ageMark);
 
 //if(true)
 //if(false)
-if(isJohnOlder)
- {
-    console.log("John ist älter");
-} 
-else 
-{
-    console.log("John ist jünger");
-}
+// if(isJohnOlder)
+//  {
+//     // Ja -Zweig /true
+//     console.log("John ist älter");
+// } 
+// else 
+// {
+//     // Nein Zweig false
+//     console.log("John ist jünger");
+// }
+
+/******** Ternäre (ternary) Schreibweise  ********/
+console.log( (isJohnOlder) ? "John is older" : "Mark is oler");
