@@ -59,10 +59,13 @@ if(isJohnOlder)
  {
     console.log("John ist älter");
 } 
+// 1. Alternative
 else if(isJohnEqual)
 {
     console.log("John ist gleich alt");
 }
+// evtl weitere Alternative(n) else if (){}
+// gemeinsame Alternative
 else
 {
     console.log("john ist jünger");
