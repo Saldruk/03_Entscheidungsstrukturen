@@ -83,21 +83,38 @@ job = "pilot";      // .. macht etwas anderes! --> default
 job = "teacher";    // .. unterrichtet!
 job = "instructor";  // .. unterrichtet!
 
-switch (job) {
-    case "driver":
-        console.log(firstName+ " fährt TAXI! / UBER");
+// switch (job) { Test auf ==
+//     case "driver":
+//         console.log(firstName+ " fährt TAXI! / UBER");
+//         break;
+//     case "diver":
+//         console.log(firstName+ " taucht im Rhein!");
+//         break;
+//     case "artist":
+//         console.log(firstName+ " malt ein Bild!");
+//         break;
+//     case "teacher":
+//     case "instructor":
+//             console.log(firstName+ " unterrichtet");
+//          break;
+//     default:
+//         console.log(firstName+ " machte was anderes!");
+//         break;
+// }
+
+/********  Fallunterscheidung / SWITCH|CASE 2 *******/
+
+const cond = true;
+const a = 5;
+
+switch (cond) {
+    case (a == 1):
+        console.log("a ist gleich 1")
         break;
-    case "diver":
-        console.log(firstName+ " taucht im Rhein!");
+    case (a == 2):
+        console.log("a ist gleich 2")
         break;
-    case "artist":
-        console.log(firstName+ " malt ein Bild!");
-        break;
-    case "teacher":
-    case "instructor":
-            console.log(firstName+ " unterrichtet");
-         break;
     default:
-        console.log(firstName+ " machte was anderes!");
+        console.log("a hat einen anderen Wert")
         break;
 }
